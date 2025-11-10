@@ -1,1 +1,12 @@
+@objects
+  header css header
+  logo css header .logo
+  hero css main
+  primary-cta css .cta
 
+= Home layout (desktop)
+  @on desktop
+    header: visible
+    logo: inside header 0px top
+    hero: below header 10 to 80 px
+    primary-cta: visible
