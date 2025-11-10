@@ -1,0 +1,11 @@
+@objects
+  form css form
+  email css input[name='email']
+  password css input[name='password']
+  submit css button[type='submit']
+
+= Login form basics
+  form: visible
+  email: visible inside form
+  password: below email 4 to 40 px
+  submit: below password 4 to 40 px
