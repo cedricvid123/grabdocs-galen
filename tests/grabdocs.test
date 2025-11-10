@@ -1,1 +1,17 @@
+@@ set
+    baseUrl  ${baseUrl}
+    user     ${user}
+    pass     ${pass}
+    upload   ${upload}
 
+= GrabDocs — Home layout (desktop)
+    js tests/grabdocs.test.js --test home --device desktop --baseUrl ${baseUrl}
+
+= GrabDocs — Login + Dashboard (desktop)
+    js tests/grabdocs.test.js --test login-dashboard --device desktop --baseUrl ${baseUrl} --user ${user} --pass ${pass}
+
+= GrabDocs — Search + Viewer (desktop)
+    js tests/grabdocs.test.js --test search-viewer --device desktop --baseUrl ${baseUrl} --user ${user} --pass ${pass}
+
+= GrabDocs — Optional Upload (desktop)
+    js tests/grabdocs.test.js --test upload --device desktop --baseUrl ${baseUrl} --user ${user} --pass ${pass} --upload ${upload}
