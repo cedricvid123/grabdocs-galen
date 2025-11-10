@@ -1,0 +1,11 @@
+@objects
+  viewer css .viewer
+  toolbar css .viewer-toolbar
+  pageThumbs css .thumbnails
+  canvasArea css canvas
+
+= Document viewer layout
+  viewer: visible width 70 to 100 % of screen
+  toolbar: visible inside viewer height 30 to 120 px
+  pageThumbs: visible left of viewer 0 to 400 px
+  canvasArea: visible inside viewer
